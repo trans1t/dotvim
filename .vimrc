@@ -1,5 +1,3 @@
-
-
 " tabbing
 set expandtab
 set smarttab
@@ -26,9 +24,8 @@ filetype plugin indent on
 au BufRead,BufNewFile *.scss set filetype=scss
 
 " ~* colors *~
-:set t_Co=256
 :set background=dark
-:colorscheme grb256
+:colorscheme solarized
 
 " learning aid - stop using arrows
 " disable arrow keys
@@ -44,3 +41,5 @@ imap <right> <nop>
 nnoremap ; :
 
 let mapleader=',' " remap leader to comma, for command-t
+
+
