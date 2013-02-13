@@ -15,10 +15,10 @@ set smartcase   " ... unless they contain at least one capital letter
 
 set nu "line numbers
 
+execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-call pathogen#infect()
 
 au BufRead,BufNewFile *.scss set filetype=scss
 
