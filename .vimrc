@@ -18,12 +18,12 @@ set smartcase     " ... unless they contain at least one capital letter
 set nu "line numbers
 
 execute pathogen#infect()
-syntax on
 filetype plugin indent on
 
 au BufRead,BufNewFile *.scss set filetype=scss
 
 " ~* colors *~
+syntax enable
 :set background=dark
 :colorscheme solarized
 
@@ -38,8 +38,4 @@ imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
 
-nnoremap ; :
-
 let mapleader=',' " remap leader to comma, for command-t
-
-
