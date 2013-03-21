@@ -17,6 +17,8 @@ set smartcase     " ... unless they contain at least one capital letter
 
 set nu "line numbers
 
+set noswapfile " no annoying .swp files
+
 execute pathogen#infect()
 filetype plugin indent on
 
@@ -39,3 +41,5 @@ imap <left> <nop>
 imap <right> <nop>
 
 let mapleader=',' " remap leader to comma, for command-t
+
+set colorcolumn=80 " highlight 80th column
