@@ -6,6 +6,7 @@
 ## pretty colors
 - Mac OS: install the solarized colors for iTerm
 - Ubuntu:
+
 ```
 cd ~
 wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-light
@@ -16,6 +17,7 @@ git clone https://github.com/sigurdga/gnome-terminal-colors-solarized.git
 cd gnome-terminal-colors-solarized
 ```
 and now you can use 
+
 ```
 ./set_dark.sh
 ./set_light.sh
@@ -28,12 +30,13 @@ and now you can use
 
 ### Ubuntu:
 - terminal:
+
 ```
     sudo apt-get istall ruby-dev
 ```
 
 ```
-    cd bundle/Command-T/ruby/command-t
-    ruby extconf.rb
-    make
+cd bundle/Command-T/ruby/command-t
+ruby extconf.rb
+make
 ```
