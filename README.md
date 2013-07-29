@@ -24,6 +24,7 @@ and now you can use
 ```
 
 ## Command-t
+### "it really whips the llama's ass"
 
 ### Mac OS:
 - use mvim (get it with homebrew)
@@ -34,6 +35,8 @@ and now you can use
 ```
     sudo apt-get istall ruby-dev
 ```
+
+- then on either OS:
 
 ```
 cd bundle/Command-T/ruby/command-t
