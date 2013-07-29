@@ -18,10 +18,14 @@ and now you can use
     ./set_light.sh
 
 ## Command-t
+
 ### Mac OS:
 - use mvim (get it with homebrew)
+
 ### Ubuntu:
 - terminal:
     sudo apt-get istall ruby-dev
 
-then go into bundle/Command-T/ruby/command-t, ruby extconf.rb, make
+    cd bundle/Command-T/ruby/command-t
+    ruby extconf.rb
+    make
