@@ -43,3 +43,5 @@ imap <right> <nop>
 let mapleader=',' " remap leader to comma, for command-t
 
 set colorcolumn=80 " highlight 80th column
+
+set wildignore+=node_modules/**,app/bower_components/**
