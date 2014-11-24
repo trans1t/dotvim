@@ -44,4 +44,14 @@ let mapleader=',' " remap leader to comma, for command-t
 
 set colorcolumn=80 " highlight 80th column
 
-set wildignore+=node_modules/**,app/bower_components/**
+set wildignore+=node_modules/** 
+set wildignore+=bower_components/**
+set wildignore+=app/bower_components/**
+set wildignore+=frontend/**
+"set wildignore+=node_modules/** " ,app/bower_components/**
+
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+
+
