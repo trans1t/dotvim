@@ -1,19 +1,22 @@
 set expandtab
 set smarttab
 set shiftwidth=2
-set tabstop=2     " 1 tab == 2 spaces
-set ai            " auto indent
-set si            " smart indent
-set hidden        " hide buffers instead of closing
-set nowrap        " Wrap lines
-set backspace=indent,eol,start " backspace through everything in insert mode
-set hlsearch      " highlight matches
-set incsearch     " incremental searching
-set ignorecase    " searches are case insensitive...
-set smartcase     " ... unless they contain at least one capital letter
-set colorcolumn=80 " highlight 80th column
-set nu           "line numbers
-set noswapfile " no annoying .swp files
+set tabstop=2       " 1 tab == 2 spaces
+set ai              " auto indent
+set si              " smart indent
+set hidden          " hide buffers instead of closing
+set nowrap          " Wrap lines
+set hlsearch        " highlight matches
+set incsearch       " incremental searching
+set ignorecase      " searches are case insensitive...
+set smartcase       " ... unless they contain at least one capital letter
+set colorcolumn=80  " highlight 80th column
+set nu              "line numbers
+set noswapfile      " no annoying .swp files
+" copy text to the mac os clipboard
+set clipboard=unnamed
+" backspace through everything in insert mode
+set backspace=indent,eol,start 
 
 au BufRead,BufNewFile *.scss set filetype=scss
 
