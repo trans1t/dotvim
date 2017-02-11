@@ -1,45 +1,17 @@
 # dotvim
 
-- ln -s the .vimrc to home
+## setup
+- mv this to `~/.vim`
+- brew install macvim --env-std --with-override-system-vim
+- [install pathogen](https://github.com/tpope/vim-pathogen}
+- ln -s the .vimrc to home, and .vim to home
 - git submodule init then update
 
-## pretty colors
-- Mac OS: install the solarized colors for iTerm
-- Ubuntu:
+## solarized
+- install and select the solarized colors for iTerm and configure them
 
-```
-cd ~
-wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-light
-mv dircolors.ansi-light .dircolors
-eval `dircolors ~/.dircolors`
-sudo apt-get install git-core
-git clone https://github.com/sigurdga/gnome-terminal-colors-solarized.git
-cd gnome-terminal-colors-solarized
-```
-and now you can use 
-
-```
-./set_dark.sh
-./set_light.sh
-```
+## powerline
+- [install powerline](https://powerline.readthedocs.io/en/latest/installation/osx.html)
 
 ## Command-t
-### "it really whips the llama's ass"
-
-### Mac OS:
-- use mvim (get it with homebrew)
-
-### Ubuntu:
-- terminal:
-
-```
-    sudo apt-get istall ruby-dev
-```
-
-- then on either OS:
-
-```
-cd bundle/Command-T/ruby/command-t
-ruby extconf.rb
-make
-```
+- `cd bundle/Command-T/ruby/command-t; ruby extconf.rb; make`

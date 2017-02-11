@@ -35,9 +35,9 @@ execute pathogen#infect()
 filetype plugin indent on
 
 " ~* colors *~
-:colorscheme solarized
-:set background=light
 syntax enable
+set background=light
+colorscheme solarized
 
 " some command-t stuff
 let mapleader=',' " remap leader to comma, for command-t
