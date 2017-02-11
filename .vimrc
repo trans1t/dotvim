@@ -41,6 +41,7 @@ colorscheme solarized
 
 " some command-t stuff
 let mapleader=',' " remap leader to comma, for command-t
+let g:CommandTTraverseSCM='pwd'
 
 set wildignore+=node_modules/** 
 set wildignore+=bower_components/**
@@ -48,8 +49,6 @@ set wildignore+=app/bower_components/**
 set wildignore+=frontend/**
 set wildignore+=tmp/**
 set wildignore+=db/**
-
-let g:CommandTTraverseSCM='pwd'
 
 " powerline
 python from powerline.vim import setup as powerline_setup
