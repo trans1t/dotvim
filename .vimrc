@@ -36,7 +36,7 @@ filetype plugin indent on
 
 " ~* colors *~
 :colorscheme solarized
-:set background=dark
+:set background=light
 syntax enable
 
 " some command-t stuff
