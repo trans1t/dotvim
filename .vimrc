@@ -19,6 +19,7 @@ set clipboard=unnamed
 set backspace=indent,eol,start 
 
 au BufRead,BufNewFile *.scss set filetype=scss
+au BufRead,BufNewFile *.jbuilder set filetype=ruby
 
 " learning aid - stop using arrows
 " disable arrow keys
@@ -48,7 +49,7 @@ set wildignore+=bower_components/**
 set wildignore+=app/bower_components/**
 set wildignore+=frontend/**
 set wildignore+=tmp/**
-set wildignore+=db/**
+set wildignore+=db/neo4j**
 
 " powerline
 python from powerline.vim import setup as powerline_setup
